@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.2 on win32)" generated="20230328 13:44:23.695" rpa="false" schemaversion="3">
+<suite id="s1" name="ExemplosEscoposVariaveis" source="D:\RobotFramework\WebTesting\ExemplosEscoposVariaveis.robot">
+<test id="s1-t1" name="Caso de teste de exemplo 01" line="9">
+<kw name="Uma keyword qualquer 01">
+<kw name="Generate Random String" library="String">
+<var>${GLOBAL_CRIADA_EM_TEMPO_EXECUCAO}</var>
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<msg timestamp="20230328 13:44:23.724" level="INFO">${GLOBAL_CRIADA_EM_TEMPO_EXECUCAO} = 8D98MeWK</msg>
+<status status="PASS" starttime="20230328 13:44:23.724" endtime="20230328 13:44:23.724"/>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<arg>${GLOBAL_CRIADA_EM_TEMPO_EXECUCAO}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<msg timestamp="20230328 13:44:23.724" level="INFO">${GLOBAL_CRIADA_EM_TEMPO_EXECUCAO} = 8D98MeWK</msg>
+<status status="PASS" starttime="20230328 13:44:23.724" endtime="20230328 13:44:23.724"/>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<arg>${SUITE_CRIADA_EM_TEMPO_EXECUCAO}</arg>
+<arg>Variável da suíte</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<msg timestamp="20230328 13:44:23.725" level="INFO">${SUITE_CRIADA_EM_TEMPO_EXECUCAO} = Variável da suíte</msg>
+<status status="PASS" starttime="20230328 13:44:23.724" endtime="20230328 13:44:23.725"/>
+</kw>
+<kw name="Set Test Variable" library="BuiltIn">
+<arg>${TESTE_01}</arg>
+<arg>Variável do teste 01</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<msg timestamp="20230328 13:44:23.726" level="INFO">${TESTE_01} = Variável do teste 01</msg>
+<status status="PASS" starttime="20230328 13:44:23.725" endtime="20230328 13:44:23.726"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${TESTE_01}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230328 13:44:23.726" level="INFO">Variável do teste 01</msg>
+<status status="PASS" starttime="20230328 13:44:23.726" endtime="20230328 13:44:23.726"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${LOCAL}</var>
+<arg>Variável local da keyword 01</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230328 13:44:23.726" level="INFO">${LOCAL} = Variável local da keyword 01</msg>
+<status status="PASS" starttime="20230328 13:44:23.726" endtime="20230328 13:44:23.726"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${LOCAL}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230328 13:44:23.726" level="INFO">Variável local da keyword 01</msg>
+<status status="PASS" starttime="20230328 13:44:23.726" endtime="20230328 13:44:23.726"/>
+</kw>
+<status status="PASS" starttime="20230328 13:44:23.723" endtime="20230328 13:44:23.726"/>
+</kw>
+<kw name="Uma keyword qualquer 02">
+<kw name="Set Variable" library="BuiltIn">
+<var>${LOCAL}</var>
+<arg>Variável local da keyword 02</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230328 13:44:23.727" level="INFO">${LOCAL} = Variável local da keyword 02</msg>
+<status status="PASS" starttime="20230328 13:44:23.727" endtime="20230328 13:44:23.727"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${LOCAL}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230328 13:44:23.727" level="INFO">Variável local da keyword 02</msg>
+<status status="PASS" starttime="20230328 13:44:23.727" endtime="20230328 13:44:23.728"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${GLOBAL_INSTANCIADA} / ${GLOBAL_CRIADA_EM_TEMPO_EXECUCAO} / ${SUITE_CRIADA_EM_TEMPO_EXECUCAO} / ${LOCAL}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230328 13:44:23.728" level="INFO">Minha variável GLOBAL_INSTANCIADA foi instanciada para a suíte / 8D98MeWK / Variável da suíte / Variável local da keyword 02</msg>
+<status status="PASS" starttime="20230328 13:44:23.728" endtime="20230328 13:44:23.728"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${TESTE_01}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230328 13:44:23.728" level="INFO">Variável do teste 01</msg>
+<status status="PASS" starttime="20230328 13:44:23.728" endtime="20230328 13:44:23.728"/>
+</kw>
+<status status="PASS" starttime="20230328 13:44:23.727" endtime="20230328 13:44:23.728"/>
+</kw>
+<status status="PASS" starttime="20230328 13:44:23.723" endtime="20230328 13:44:23.729"/>
+</test>
+<test id="s1-t2" name="Caso de teste de exemplo 02" line="13">
+<kw name="Uma keyword qualquer 02">
+<kw name="Set Variable" library="BuiltIn">
+<var>${LOCAL}</var>
+<arg>Variável local da keyword 02</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230328 13:44:23.731" level="INFO">${LOCAL} = Variável local da keyword 02</msg>
+<status status="PASS" starttime="20230328 13:44:23.731" endtime="20230328 13:44:23.731"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${LOCAL}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230328 13:44:23.732" level="INFO">Variável local da keyword 02</msg>
+<status status="PASS" starttime="20230328 13:44:23.731" endtime="20230328 13:44:23.732"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${GLOBAL_INSTANCIADA} / ${GLOBAL_CRIADA_EM_TEMPO_EXECUCAO} / ${SUITE_CRIADA_EM_TEMPO_EXECUCAO} / ${LOCAL}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230328 13:44:23.732" level="INFO">Minha variável GLOBAL_INSTANCIADA foi instanciada para a suíte / 8D98MeWK / Variável da suíte / Variável local da keyword 02</msg>
+<status status="PASS" starttime="20230328 13:44:23.732" endtime="20230328 13:44:23.732"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${TESTE_01}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230328 13:44:23.733" level="FAIL">Variable '${TESTE_01}' not found.</msg>
+<status status="FAIL" starttime="20230328 13:44:23.732" endtime="20230328 13:44:23.733"/>
+</kw>
+<status status="FAIL" starttime="20230328 13:44:23.730" endtime="20230328 13:44:23.733"/>
+</kw>
+<kw name="Uma keyword qualquer 03">
+<status status="NOT RUN" starttime="20230328 13:44:23.733" endtime="20230328 13:44:23.733"/>
+</kw>
+<status status="FAIL" starttime="20230328 13:44:23.730" endtime="20230328 13:44:23.734">Variable '${TESTE_01}' not found.</status>
+</test>
+<test id="s1-t3" name="Caso de teste de exemplo 03" line="17">
+<kw name="Uma keyword qualquer 04">
+<kw name="Set Variable" library="BuiltIn">
+<var>${LOCAL}</var>
+<arg>Variável local da keyword 04</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230328 13:44:23.737" level="INFO">${LOCAL} = Variável local da keyword 04</msg>
+<status status="PASS" starttime="20230328 13:44:23.737" endtime="20230328 13:44:23.737"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${LOCAL}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230328 13:44:23.738" level="INFO">Variável local da keyword 04</msg>
+<status status="PASS" starttime="20230328 13:44:23.737" endtime="20230328 13:44:23.738"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${GLOBAL_INSTANCIADA} / ${GLOBAL_CRIADA_EM_TEMPO_EXECUCAO} / ${SUITE_CRIADA_EM_TEMPO_EXECUCAO} / ${LOCAL}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230328 13:44:23.738" level="INFO">Minha variável GLOBAL_INSTANCIADA foi instanciada para a suíte / 8D98MeWK / Variável da suíte / Variável local da keyword 04</msg>
+<status status="PASS" starttime="20230328 13:44:23.738" endtime="20230328 13:44:23.738"/>
+</kw>
+<status status="PASS" starttime="20230328 13:44:23.737" endtime="20230328 13:44:23.738"/>
+</kw>
+<status status="PASS" starttime="20230328 13:44:23.735" endtime="20230328 13:44:23.738"/>
+</test>
+<doc>Exemplo de escopo de variáveis: GLOBAIS, SUITE, TESTE (test case) e LOCAL (keyword)</doc>
+<status status="FAIL" starttime="20230328 13:44:23.696" endtime="20230328 13:44:23.740"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="1" skip="0" id="s1" name="ExemplosEscoposVariaveis">ExemplosEscoposVariaveis</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
