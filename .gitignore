@@ -1,0 +1,58 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment directories
+env/
+venv/
+.venv/
+
+# Ignore Robot Framework log files
+output.xml
+report.html
+log.html
+*.png
+
+# Ignore local configuration files
+*.local
+*.config
+
+# Ignore BrowserStack local binary
+browserstack-local/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore shell scripts
+*.sh
+
+# Ignore Appium specific files
+start-appium.sh
+
+# Ignore application build directories
+app/
+build/
+dist/
+results/
+tests/reports
+
+# Ignore Node.js modules
+node_modules/
+
+# Ignore test results
+tests/reports/log.html
+tests/reports/output.xml
+tests/reports/report.html
+
+# Ignore coverage reports
+coverage/
+*.cover
+*.coverage
+*.coveragerc
+.cache

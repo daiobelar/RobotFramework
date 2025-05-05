@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "appium": "^2.0.1"
+  },
+  "name": "studion-mobile",
+  "version": "1.0.0",
+  "description": "Testes automatizados mobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daiane Obelar",
+  "license": "ISC",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "appium-uiautomator2-driver": "^3.7.5",
+    "appium-wait-plugin": "^3.0.2"
+  }
+}
