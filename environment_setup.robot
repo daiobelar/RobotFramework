@@ -16,8 +16,8 @@ Setup STQA1 Environment
     Set Test Variable    ${ADMIN_EMAIL}           ${STQA1_ADMIN_EMAIL}
     Set Test Variable    ${ADMIN_PASSWORD}        ${STQA1_ADMIN_PASSWORD}
     Set Test Variable    ${ESTUDANTE_EMAIL}       ${STQA1_ESTUDANTE_EMAIL}
-    Set Test Variable    ${ESTUDANTE_USER}       ${STQA1_ESTUDANTE_USER}
-    Set Test Variable    ${ESTUDANTE_EMAIL_MULT}       ${STQA1_ESTUDANTE_EMAIL_MULT}
+    Set Test Variable    ${ESTUDANTE_USER}        ${STQA1_ESTUDANTE_USER}
+    Set Test Variable    ${ESTUDANTE_EMAIL_MULT}  ${STQA1_ESTUDANTE_EMAIL_MULT}
     Set Test Variable    ${ESTUDANTE_PASSWORD}    ${STQA1_ESTUDANTE_PASSWORD}
     Set Test Variable    ${ESTUDANTE_EMAIL_INV}   ${STQA1_ESTUDANTE_EMAIL_INV}
 
